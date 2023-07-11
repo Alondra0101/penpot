@@ -19,6 +19,7 @@
    [app.main.ui.releases.v1-16]
    [app.main.ui.releases.v1-17]
    [app.main.ui.releases.v1-18]
+   [app.main.ui.releases.v1-19]
    [app.main.ui.releases.v1-4]
    [app.main.ui.releases.v1-5]
    [app.main.ui.releases.v1-6]
@@ -88,4 +89,4 @@
 
 (defmethod rc/render-release-notes "0.0"
   [params]
-  (rc/render-release-notes (assoc params :version "1.18")))
+  (rc/render-release-notes (assoc params :version "1.19")))

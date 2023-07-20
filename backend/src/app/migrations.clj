@@ -324,6 +324,8 @@
    {:name "0104-mod-file-thumbnail-table"
     :fn (mg/resource "app/migrations/sql/0104-mod-file-thumbnail-table.sql")}
 
+   {:name "0105-add-profile-credential-table"
+    :fn (mg/resource "app/migrations/sql/0105-add-profile-credential-table.sql")}
    ])
 
 (defn apply-migrations!
